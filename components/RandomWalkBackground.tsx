@@ -63,7 +63,7 @@ export default function RandomWalkBackground({ start = false }: RandomWalkBackgr
         const stepSize = 1.5
         const nextX = current.x + stepSize
         const randomValue = Math.random()
-        const verticalStep = randomValue < 0.55 ? -15 : 15
+        const verticalStep = randomValue < 0.51 ? -15 : 15
         const nextY = current.y + verticalStep
         
         const clampedY = Math.max(0, Math.min(dimensions.height, nextY))
