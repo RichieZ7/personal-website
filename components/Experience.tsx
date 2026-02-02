@@ -51,7 +51,7 @@ const experiences: Experience[] = [
   {
     title: 'Participant',
     company: 'Hampshire College Summer Studies in Mathematics',
-    location: 'Amherst, Massachusetts, United States',
+    location: 'Amherst, MA',
     duration: 'Jun 2021 - Aug 2021',
     description: 'One of 50/500+ selected to study college and research math',
   },
